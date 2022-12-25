@@ -9,10 +9,11 @@
     font-size: 40px;
     width: 100%;
     min-height: 100vh;
-    background-image: url(img/back.jpg);
+    /* background-image: url(img/back.jpg); */
   }
  
   .container {
+    background-image: url(img/back.jpg);
     display: grid;
     gap: 50px 80px;
     grid-template-columns: 2fr 2fr;
