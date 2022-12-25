@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных пользователей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="title box-title">
+                <h1>Окно результатов генерации</h1>
+            </div>
+            <div class="outputWindow box-output">
+                <div class="outName">
+                    <p>ФИО: <span id="fullName"></span></p>
+                </div>
+                <div class="sex">
+                    <p>Пол: <span id="genderOutput"></span></p>
+                </div>
+                <div class="birthYearOutput">
+                    <p>Год рождения: <span id="birthYearOutput"></span></p>
+                </div>
+                <div class="profession">
+                    <p>Профессия: <span id="professionOutput"></span></p>
+                </div>
+            </div>
+                <div class="box-buttonGen">
+                    <button id="btnGen">Генерировать</button>
+                </div>
+                <div class="box-buttonClear">    
+                    <button id="btnСlear">Очистить</button>
+                </div>
+        </div>
+
+    </div>
+<script src="personGenerator.js"></script>
+<script src="init.js"></script>
+</body>
+</html>

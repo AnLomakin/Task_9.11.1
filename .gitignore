@@ -1,0 +1,9 @@
+# extensions
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+#files and folders
